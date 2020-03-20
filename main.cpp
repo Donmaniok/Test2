@@ -1,20 +1,18 @@
 //
 // Created on HP on 19.03.2020.
+// New 20.02    v2.0
 //
 #include <iostream>
-#include <cstdlib>
 #include <zconf.h>          //  sleep()
-#include <cstdio>
-#include <curses.h>
 
 using namespace std;
-
+/**---------------------------          0. Void    ----------------------------------------**/
 void menu_1();
 void menu_2();
 void menu_3();
 
 int main() {
-/**---------------------------          0. Start    ----------------------------------------**/
+/**---------------------------          1. Main    ----------------------------------------**/
     int menu;
 
     cout << "Standordowo:\t\t\t Hello, World!" << endl << "\t\tCzesc!" << endl
@@ -23,7 +21,7 @@ int main() {
 
 cout << endl << "\t1. Liczba i napis\n"
         "\t2. Wyswietl typy danych\n"
-        "\t3. Wczytaj n zmiennych"
+        "\t3. Wczytaj n zmiennych\n"
         "\t 0 Wyjscie z programu\n"<< endl;
 cout << "\t\t";
     More:
