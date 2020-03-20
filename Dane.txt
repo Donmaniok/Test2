@@ -1,0 +1,13 @@
+Najpopularniejsze typy danych:
+
+    Int 	-->	    liczby całkowite
+
+    Float 	-->     liczby zmiennoprzecinkowe
+
+    Double  -->	    liczby zmiennoprzecinkowe
+
+    Boolean -->	    prawda / fałsz
+
+    Char	-->	    jeden znak
+
+    String	-->	    ciąg znaków
