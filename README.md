@@ -1,7 +1,9 @@
 # README
 
-_**20-03-2020**_  
-_**Test v1.o**_
+<ol>
+<li> 20-03-2020 | Test v1.0 </li>
+<li>21-03-2020 | Test v2.0</li>
+</ol>
 
 # Spis treści:
 
