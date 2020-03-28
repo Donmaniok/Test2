@@ -3,7 +3,8 @@
 // New 20.02    v2.0
 //
 #include <iostream>
-#include <zconf.h>          //  sleep()
+#include <string>
+/// #include <zconf.h>          //  sleep()
 
 using namespace std;
 /**---------------------------          0. Void    ----------------------------------------**/
@@ -50,13 +51,24 @@ cin >> menu;
 }
 
 void menu_1(){
-    char imie;
     int liczba;
-    cout <<"\n\n\t\tWpisz Imie: ";
+    char znaki;
+    string imie;
+
+    cout << "\n\n\t\tWpisz znak: " << endl;
+    cin >> znaki;
+
+    cout << "\n\n\t\tWpisz dowolny ciag znakow: " << endl;
     cin >> imie;
-    cout << "\tOK \nWprowadz cyfre: ";
+
+    cout << "\n\n\t\tWprowadz liczbe: " << endl;
     cin >> liczba;
-    cout << "\n\t\tWprowadzono:\n \tImie: " << imie << "\n\tCyfre: " << liczba;
+
+    cout << "Wprowadzono:" << endl;
+
+    cout << "\tZnak: \t\t" << znaki << "\n\tLiczbe: \t" << liczba << endl;
+    cout << "\tZdanie: \t" << imie << "." << endl;
+
 }
 
 void menu_2(){
